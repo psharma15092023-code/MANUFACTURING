@@ -1,0 +1,610 @@
+/* =========================================================
+   WHY CHOOSE US
+   ========================================================= */
+
+.why-section {
+  position: relative;
+  padding: 115px 0;
+  background:
+    radial-gradient(circle at 85% 15%, rgba(217, 154, 34, 0.08), transparent 30%),
+    radial-gradient(circle at 10% 90%, rgba(255, 255, 255, 0.03), transparent 25%),
+    #07182d;
+  overflow: hidden;
+}
+
+/* Decorative circles */
+.why-section::before {
+  content: "";
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  border: 1px solid rgba(217, 154, 34, 0.1);
+  border-radius: 50%;
+  right: -260px;
+  top: -260px;
+}
+
+.why-section::after {
+  content: "";
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  left: -250px;
+  bottom: -250px;
+}
+
+
+/* =========================================================
+   CONTAINER
+   ========================================================= */
+
+.why-container {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+
+  gap: 85px;
+  align-items: center;
+
+  position: relative;
+  z-index: 2;
+}
+
+
+/* =========================================================
+   LEFT CONTENT
+   ========================================================= */
+
+.why-content {
+  max-width: 540px;
+}
+
+
+/* Small label */
+
+.why-content .section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 22px;
+
+  color: #d99a22;
+
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+}
+
+.why-content .section-label::before {
+  content: "";
+  width: 38px;
+  height: 1px;
+  background: #d99a22;
+}
+
+
+/* Heading */
+
+.why-content h2 {
+  margin: 0 0 28px;
+
+  color: #ffffff;
+
+  font-size: clamp(42px, 4.3vw, 62px);
+  line-height: 1.02;
+
+  font-weight: 800;
+
+  letter-spacing: -2px;
+}
+
+.why-content h2 span {
+  display: block;
+  margin-top: 6px;
+
+  color: #d99a22;
+}
+
+
+/* Intro */
+
+.why-intro {
+  max-width: 500px;
+
+  margin: 0 0 32px;
+
+  color: #aeb9c7;
+
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+
+/* =========================================================
+   HIGHLIGHT BOX
+   ========================================================= */
+
+.why-highlight {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 18px;
+
+  padding: 22px 24px;
+
+  margin-bottom: 32px;
+
+  background: rgba(255, 255, 255, 0.045);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-left: 3px solid #d99a22;
+
+  transition: all 0.3s ease;
+}
+
+.why-highlight:hover {
+  background: rgba(217, 154, 34, 0.08);
+  transform: translateX(5px);
+}
+
+
+/* Check circle */
+
+.highlight-icon {
+  flex-shrink: 0;
+
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #d99a22;
+
+  color: #07182d;
+
+  font-size: 18px;
+  font-weight: 900;
+
+  box-shadow: 0 8px 25px rgba(217, 154, 34, 0.2);
+}
+
+
+/* Highlight heading */
+
+.why-highlight strong {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 800;
+}
+
+
+/* Highlight paragraph */
+
+.why-highlight p {
+  margin: 0;
+
+  color: #8997a7;
+
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   BUTTON
+   ========================================================= */
+
+.why-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 16px;
+
+  min-height: 50px;
+
+  padding: 0 25px;
+
+  background: linear-gradient(
+    135deg,
+    #d99a22,
+    #f0b83f
+  );
+
+  color: #07182d;
+
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 800;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  box-shadow: 0 10px 30px rgba(217, 154, 34, 0.15);
+
+  transition: all 0.3s ease;
+}
+
+.why-button span {
+  font-size: 20px;
+
+  transition: transform 0.3s ease;
+}
+
+.why-button:hover {
+  background: #ffffff;
+
+  color: #07182d;
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.2);
+}
+
+.why-button:hover span {
+  transform: translateX(6px);
+}
+
+
+/* =========================================================
+   RIGHT GRID
+   ========================================================= */
+
+.why-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 18px;
+}
+
+
+/* =========================================================
+   CARD
+   ========================================================= */
+
+.why-card {
+  position: relative;
+
+  min-height: 255px;
+
+  padding: 28px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.07),
+      rgba(255, 255, 255, 0.025)
+    );
+
+  border: 1px solid rgba(255, 255, 255, 0.09);
+
+  overflow: hidden;
+
+  transition:
+    transform 0.35s ease,
+    background 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+
+/* Gold glow */
+
+.why-card::before {
+  content: "";
+
+  position: absolute;
+
+  width: 120px;
+  height: 120px;
+
+  right: -60px;
+  top: -60px;
+
+  border-radius: 50%;
+
+  background: rgba(217, 154, 34, 0.08);
+
+  transition: transform 0.4s ease;
+}
+
+
+/* Hover */
+
+.why-card:hover {
+  transform: translateY(-8px);
+
+  background: #ffffff;
+
+  border-color: rgba(217, 154, 34, 0.45);
+
+  box-shadow:
+    0 18px 45px rgba(0, 0, 0, 0.25);
+}
+
+.why-card:hover::before {
+  transform: scale(2.5);
+}
+
+
+/* =========================================================
+   CARD TOP
+   ========================================================= */
+
+.why-card-top {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 38px;
+
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Number */
+
+.why-card-top > span {
+  color: #6f8195;
+
+  font-size: 12px;
+  font-weight: 800;
+
+  letter-spacing: 2px;
+}
+
+.why-card:hover .why-card-top > span {
+  color: #a17b32;
+}
+
+
+/* =========================================================
+   CHECK ICON
+   ========================================================= */
+
+.why-check {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(217, 154, 34, 0.1);
+
+  border: 1px solid rgba(217, 154, 34, 0.2);
+
+  color: #d99a22;
+
+  font-size: 17px;
+  font-weight: 900;
+
+  transition: all 0.3s ease;
+}
+
+.why-card:hover .why-check {
+  background: #d99a22;
+
+  color: #07182d;
+
+  transform: rotate(8deg);
+}
+
+
+/* =========================================================
+   CARD TITLE
+   ========================================================= */
+
+.why-card h3 {
+  position: relative;
+  z-index: 1;
+
+  margin: 0 0 13px;
+
+  color: #ffffff;
+
+  font-size: 20px;
+
+  font-weight: 800;
+
+  letter-spacing: -0.3px;
+
+  transition: color 0.3s ease;
+}
+
+.why-card:hover h3 {
+  color: #07182d;
+}
+
+
+/* =========================================================
+   CARD DESCRIPTION
+   ========================================================= */
+
+.why-card p {
+  position: relative;
+  z-index: 1;
+
+  margin: 0;
+
+  color: #91a0b0;
+
+  font-size: 13px;
+
+  line-height: 1.75;
+
+  transition: color 0.3s ease;
+}
+
+.why-card:hover p {
+  color: #667384;
+}
+
+
+/* =========================================================
+   GOLD BOTTOM LINE
+   ========================================================= */
+
+.why-card-line {
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 55px;
+  height: 3px;
+
+  background: #d99a22;
+
+  transition: width 0.35s ease;
+}
+
+.why-card:hover .why-card-line {
+  width: 100%;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1050px) {
+
+  .why-section {
+    padding: 90px 0;
+  }
+
+  .why-container {
+    grid-template-columns: 1fr;
+
+    gap: 60px;
+  }
+
+  .why-content {
+    max-width: 720px;
+  }
+
+  .why-intro {
+    max-width: 650px;
+  }
+
+}
+
+
+/* =========================================================
+   TABLET / SMALL LAPTOP
+   ========================================================= */
+
+@media (max-width: 750px) {
+
+  .why-section {
+    padding: 75px 0;
+  }
+
+  .why-container {
+    width: 88%;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  .why-section {
+    padding: 65px 0;
+  }
+
+  .why-container {
+    width: 90%;
+
+    gap: 45px;
+  }
+
+  .why-content h2 {
+    font-size: 39px;
+
+    letter-spacing: -1.5px;
+  }
+
+  .why-intro {
+    font-size: 14px;
+
+    line-height: 1.8;
+  }
+
+  .why-highlight {
+    padding: 18px;
+
+    gap: 14px;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+
+    gap: 15px;
+  }
+
+  .why-card {
+    min-height: 220px;
+
+    padding: 24px;
+  }
+
+  .why-card-top {
+    margin-bottom: 30px;
+  }
+
+  .why-card h3 {
+    font-size: 19px;
+  }
+
+  .why-button {
+    width: 100%;
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+  .why-content h2 {
+    font-size: 34px;
+  }
+
+  .why-highlight {
+    flex-direction: column;
+  }
+
+}
