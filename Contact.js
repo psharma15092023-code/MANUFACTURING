@@ -46,14 +46,7 @@ return ( <section className="contact-page" id="contact">
           ☎
         </div>
 
-        <div>
-          <span>CONTACT PERSON</span>
-          <h4>Satyapal</h4>
 
-          <a href="tel:+918683838585">
-            +91 86838 38585
-          </a>
-        </div>
 
       </div>
 

@@ -55,12 +55,7 @@ function Footer() {
         <div className="footer-column footer-contact">
           <h3>Contact Us</h3>
 
-          <div className="footer-contact-item">
-            <strong>Satyapal</strong>
-            <a href="tel:+918683838585">
-              +91 86838 38585
-            </a>
-          </div>
+          
 
           <div className="footer-contact-item">
             <strong>Harkesh Panwar</strong>

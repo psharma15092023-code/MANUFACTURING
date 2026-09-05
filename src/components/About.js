@@ -25,12 +25,7 @@ function About() {
       2D Bags<br />
       Daily Capacity
     </span>
-  </div>
-
-
-
-        
-        </div>
+</div></div>
 
         <div className="about-content">
 

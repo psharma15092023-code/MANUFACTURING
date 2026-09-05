@@ -46,7 +46,7 @@ ${formData.requirements}
     `;
 
     const whatsappURL =
-      "https://wa.me/918683838585?text=" +
+      "https://wa.me/919311718311?text=" +
       encodeURIComponent(whatsappMessage);
 
     window.open(whatsappURL, "_blank");
@@ -103,18 +103,12 @@ ${formData.requirements}
             <div className="quote-contact">
 
               <div>
-                <strong>Satyapal</strong>
 
-                <a href="tel:+918683838585">
-                  +91 86838 38585
-                </a>
-              </div>
-
-              <div>
+              
                 <strong>Harkesh Panwar</strong>
 
                 <a href="tel:+919311718311">
-                  +91 93117 18311
+                  +91 9311718311
                 </a>
               </div>
 
